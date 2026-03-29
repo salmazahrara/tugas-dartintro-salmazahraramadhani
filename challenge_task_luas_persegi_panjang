@@ -1,0 +1,13 @@
+int hitungLuas(int panjang, int lebar) {
+  return panjang * lebar;
+}
+
+void main() {
+  int panjang = 10;
+  int lebar   = 5;
+  int luas    = hitungLuas(panjang, lebar);
+
+  print('Panjang : $panjang');
+  print('Lebar   : $lebar');
+  print('Luas    : $luas');
+}
